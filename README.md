@@ -5,7 +5,9 @@ This Oh My Zsh plugin provides utilities for Git and Yarn, including:
 
 ## Features
 
-- **Switch Branch by PR Number**: Quickly switch to the branch associated with a specific PR using `switch_branch_by_pr <PR_NUMBER>`.
+- **Switch Branch by PR Number**: Quickly switch to the branch associated with a specific PR number, using `gswp <PR_NUMBER>`.
+
+- **Create a PR based on the latest commit message**: This will automatically create a PR using the latest commit message for the branch name and PR title `create-pr` (you can also pass params for `gh pr create` which it uses behind the scenes thanks to [@ChenK14](https://github.com/ChenK14) for the motivation and idea)
 
 ## Requirements
 
