@@ -1,7 +1,6 @@
 # Git Utils Zsh Plugin
 
 This Oh My Zsh plugin provides utilities for Git and Yarn, including:
-- A shorthand alias for `yarn` using `y`.
 - A function to switch Git branches by Pull Request (PR) number.
 
 ## Features
