@@ -19,3 +19,11 @@ This Oh My Zsh plugin provides utilities for Git and Yarn, including:
    ```bash
    git clone https://github.com/your-username/git-utils-plugin.git ~/.oh-my-zsh/custom/plugins/git-utils
    ```
+2. **Add this to your `~/.zshrc`**
+   ```bash
+   plugins=(... git-utils)
+   ```
+4. **Reload ZSH**
+   ```bash
+   source ~/.zshrc
+   ```
